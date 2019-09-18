@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+
+body {
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  text-align: justify;
+}
+
+#myCarousel {
+  height: 80vh;
+  display: inline-block;
+  transform: translateY(16%);
+  overflow: hidden;
+}
+
+.mrgin {
+  transform: translateY(50%);
+}
+
+
+#img1 {
+  margin: 15px 0px 0px 15px;
+  float: left;
+}
+
+#img2 {
+  margin: 0px 20px 0px 0px;
+  float: right;
+}
+
+#barra {
+  background-color: #028453;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-size: 32pt;
+  text-align: center;
+  color: white;
+  border-bottom-style: solid;
+  border-bottom-color: #383028;
+}
+
+#barraf {
+  background-color: #028453;
+  position: absolute;
+  padding: 5px;
+  bottom: 0%;
+  width: 100%;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-size: 15pt;
+  text-align: center;
+  color: white;
+  border-top-style: solid;
+  border-top-color: #383028;
+}
+
+
+#contenendortable {
+  height: 440px;
+  overflow: auto;
+  z-index: -10;
+
+}
+
+.contenthorario {
+  padding: 0;
+  height: 70vh;
+}
+
+.listimoniter {
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  padding: 10px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.conttable {
+
+  height: 100%;
+  overflow-y: auto;
+}
+
+
+.contenedor-tabla {
+  padding: 20px;
+  width: 100%;
+  display: table;
+}
+
+.contenedor-fila {
+  padding: 20px;
+  display: table-row;
+}
+
+.contenedor-columna {
+  border: 1px solid black;
+  background-color: white;
+  padding: 10px;
+  display: table-cell;
+
+}
+
+.theadd {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgb(231, 231, 231);
+  
+}
+
+.thh {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgb(231, 231, 231);
+  text-align: center;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  color: black;
+  border: none;
+  border-bottom: 2px solid rgb(129, 129, 129);
+  
+}
+
+.tbodyy{
+  background-color: white
+}
+.tdd{
+ padding: 10px;
+}
+.horaa{
+  color: black;
+  background-color: rgb(231, 231, 231);
+
+}
+#divlun .btninttable,
+#divmart .btninttable,
+#divmier .btninttable,
+#divjuev .btninttable,
+#divvier .btninttable,
+#divsab .btninttable{
+  cursor: pointer;
+}
+
+#descripcionhr,#descripcion {
+  resize: none;
+  height: 130px;
+}
+
+
+#bottomside {
+  position: fixed;
+  left: 0;
+  top: 15vh;
+  z-index: 1000;
+}
+
+#bottomside a {
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#bottomside a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #4caf50;
+}
+
+#cmoni {
+  top: 80px;
+  background-color: #4f0090;
+}
+
+#blog {
+  top: 140px;
+  background-color: #2196f3;
+}
+
+#projects {
+  top: 200px;
+  background-color: #f44336;
+}
+
+#contact {
+  top: 260px;
+  background-color: #555;
+}

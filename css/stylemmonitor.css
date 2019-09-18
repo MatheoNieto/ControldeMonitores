@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+
+#body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #f1f1f1;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    text-align: justify;
+
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #f1f1f1;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    text-align: justify;
+
+
+}
+
+#container {
+    position: absolute;
+    background-color: transparent;
+    width: 80%;
+    height: 80%;
+    margin-left: 150px;
+    overflow: auto;
+
+}
+
+a {
+    outline: 0;
+}
+
+#img1 {
+    margin: 15px 0px 0px 15px;
+    float: left;
+}
+
+#img2 {
+    margin: 0px 20px 0px 0px;
+    float: right;
+}
+
+#barra {
+    background-color: #028453;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-size: 32pt;
+    text-align: center;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color: #383028;
+}
+
+#barraf {
+    background-color: #028453;
+    position: absolute;
+    padding: 5px;
+    bottom: 0%;
+    width: 100%;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+    border-top-style: solid;
+    border-top-color: #383028;
+}
+
+#editfor {
+    font-size: 1em !important;
+    cursor: pointer;
+    font-weight: 100;
+
+}
+
+#cancelarfor {
+    font-size: 1em !important;
+    cursor: pointer;
+    font-weight: 100;
+
+}
+
+#mySidenav{
+    position: fixed;
+    left: 0;
+    top: 15vh
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+}
+#cmoni {
+    top: 80px;
+    background-color: #4F0090;
+}#blog {
+    top: 140px;
+    background-color: #2196F3;
+}
+#projects {
+    top: 200px;
+    background-color: #f44336;
+}
+#contact {
+    top: 260px;
+    background-color: #555
+}
+
+
+

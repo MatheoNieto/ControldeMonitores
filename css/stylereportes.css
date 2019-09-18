@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif");
+
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    text-align: justify;
+}
+
+#img1{
+    margin: 15px 0px 0px 15px;
+    float: left;
+}
+#img2{
+     margin: 0px 20px 0px 0px;
+    float: right;
+}
+#barra {
+    background-color: #028453;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-size: 32pt;
+    text-align: center;
+    color: white;
+    border-bottom-style: solid;
+    border-bottom-color: #383028;
+}
+
+#barraf {
+    background-color: #028453;
+    position: absolute;
+    padding: 5px;
+    bottom: 0%;
+    width: 100%;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-size: 15pt;
+    text-align: center;
+    color: white;
+    border-top-style: solid;
+    border-top-color: #383028;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    height: 550px;
+    overflow: hidden;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+table tr >td{
+    text-align: center;
+}table tr >th{
+    text-align: center;
+}
+
+
+#bottomside {
+    position: fixed;
+    left: 0;
+    top: 15vh;
+    z-index: 1000;
+  }
+  
+  #bottomside a {
+    position: absolute;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  #bottomside a:hover {
+    left: 0;
+  }
+  
+  #about {
+    top: 20px;
+    background-color: #4caf50;
+  }
+  
+  #cmoni {
+    top: 80px;
+    background-color: #4f0090;
+  }
+  
+  #blog {
+    top: 140px;
+    background-color: #2196f3;
+  }
+  
+  #projects {
+    top: 200px;
+    background-color: #f44336;
+  }
+  
+  #contact {
+    top: 260px;
+    background-color: #555;
+  }
+
+
+#contenedoorreporte{    
+    height: 400px;
+    overflow: auto;
+    padding:10px;
+}
+
+
+
+
